@@ -5,7 +5,7 @@ This sample program uses BACnet Java library called bacnet4j to create a BACnet 
 
 # How to Run
 
-.. This is eclipse project and can be directly imported as a gradle project. Just import root project. Now, project is ready to be build in eclipse.
+..* This is eclipse project and can be directly imported as a gradle project. Just import root project. Now, project is ready to be build in eclipse.
 .. We need JavaFX installed in system. For Oracle java, it comes bundled with Sun JDK. Note: Java should be at least 1.8.
 .. For ubuntu or other linux based operating systems which uses openjdk, we have to install opnjfx library. 
  sudo apt install openjfx
