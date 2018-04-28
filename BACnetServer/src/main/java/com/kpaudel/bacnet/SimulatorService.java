@@ -47,6 +47,10 @@ public class SimulatorService implements IService {
 		this.deviceId = deviceId;
 	}
 
+	/**
+	 * Initializes simulator <br>
+	 * It is mandatory to call init before starting simulator
+	 */
 	@Override
 	public void init() {
 		String hostAddress = "127.0.0.1";
@@ -78,7 +82,5 @@ public class SimulatorService implements IService {
 	public boolean isRunning() {
 		return this.localDevice.isInitialized();
 	}
-	
-	
 
 }
